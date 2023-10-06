@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile - Iago</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5865c25890.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="js.js">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Iago.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Achievements</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Iago</span><br>Programmer from Brazil</h1>
+            </div>
+        </div>
+    </div>
+    
+    <!----------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-collum">
+                    <img src="images/20201214_181657.jpg">
+                </div>
+                    <div class="about-collum2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>I'm Iago, I'm 17 years old, and I'm passionate about programming, soccer, online gaming, and hitting the gym. Programming is my passion, where I can be creative and have fun. I love following my favorite soccer team and playing the sport with friends whenever I can. During leisure time, I dive into the world of online gaming for fun. I also prioritize the gym to maintain a healthy lifestyle. I'm determined to grow and shape a promising future full of achievements.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Ui/Ux</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app development</li>
+                                <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>None</span><br>I'm looking for a job in the area</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - 2023</span><br>High School at Escola S</li>
+                                <li><span>2023 - 2024</span><br>Entra21 at Senac</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Achievements</h1>
+            <div class="services-list">
+                <div>
+                    <img src="images/obmep.png" alt="obmep">
+                    <h2>Obmep</h2>
+                    <p>I achieved a bronze medal in the 2018 Brazilian Mathematical Olympiad for Public Schools (OBMEP) and am now qualified for this year's (2023) second phase at level 3.</p>
+                    <a href="http://premiacao.obmep.org.br/2018/verRelatorioPremiadosBronze-SC.do.htm" target="_blank">See more</a>
+                </div>
+                <div>
+                    <img src="images/oba.png" alt="oba">
+                    <h2>Oba</h2>
+                    <p>I received a silver medal in 2018 and a gold medal in 2019 in the Brazilian Astronomy Olympiad (OBA).</p>
+                    <a href="http://www.oba.org.br/site/" target="_blank">See more</a>
+                </div>
+                <div>
+                    <img src="images/canguru.png" alt="canguru">
+                    <h2>Canguru</h2>
+                    <p>I also won a bronze medal in the 2022 Kangaroo Olympiad.</p>
+                    <a href="https://www.cangurudematematicabrasil.com.br/" target="_blank" class="link">See more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Description space</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Description space</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Description space</p>
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!---------contact-------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>iagorechtramontin@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+554799904-0362</p>
+                    
+                    <div class="social-icons">
+                        <a href="https://wa.me/5547999040362" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/iago_rech/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/iago-rech-tramontin-ba3106227/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/I4g0m1t0" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Curriculum Vitae.pdf" download class="btn btn2">Dowload CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" id="form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" id="submitButton">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Iago Rech Tramontin. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxjPEgJFF3p9UFxaVNkYMLxqu82lvMkBS50vVqTJhQSMuHUoVFvYYtBN1BSW8aZE9g/exec'
+    const form = document.querySelector('#form')
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+     submitButton.disabled = true
+     e.preventDefault()
+     let requestBody = new FormData(form)
+     fetch(scriptURL, { method: 'POST', body: requestBody})
+       .then(response => {
+        msg.innerHTML = "Message sent succesfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+          submitButton.disabled = false
+          form.reset()
+         })
+       .catch(error => {
+       alert('Error!', error.message)
+         submitButton.disabled = false
+
+       }
+       )
+   })
+</script>
+
+
+
+</body>
+</html>
