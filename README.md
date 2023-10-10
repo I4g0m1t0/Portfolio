@@ -7,7 +7,6 @@ Welcome to my portfolio website repository! This repository contains the code an
 - [About](#about)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 - [Contact](#contact)
 
 ## About
@@ -25,10 +24,6 @@ This portfolio website serves as a central hub for presenting my projects, achie
 - CSS (mention any pre-processors like Sass if used)
 - JavaScript
 - [Mention any hosting or deployment platforms, e.g., GitHub Pages, Netlify, etc.]
-
-## License
-
-This project is licensed under the [License Name] - see the LICENSE.md file for details.
 
 ## Contact
 
